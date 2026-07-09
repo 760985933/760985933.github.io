@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="system">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学习 & 项目空间 · 主站导航</title>
+<meta name="description" content="tianfeng 的学习与项目导航主页，收录 ESP32 学习路线等系列内容。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- 顶栏 -->
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">TF</span>
+    <div><b>tiansir的个人博客</b><br><small>学习 · 实践 · 记录</small></div>
+  </div>
+  <div class="theme-group" role="group" aria-label="主题切换">
+    <button class="theme-btn" data-theme-set="light" title="亮色" aria-pressed="false">☀</button>
+    <button class="theme-btn" data-theme-set="dark" title="暗色" aria-pressed="false">🌙</button>
+    <button class="theme-btn" data-theme-set="system" title="跟随系统" aria-pressed="false">🖥</button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="eyebrow">个人学习与项目导航</span>
+    <h1>把学过的东西<br><span class="grad">留下来，串起来</span></h1>
+    <p class="lead">
+      这里是我的主站导航。所有学习笔记、实战项目和随手做的小工具，都会从这里出发。
+    </p>
+  </section>
+
+  <!-- 项目导航 -->
+  <div class="section-head">
+    <h2>项目导航</h2>
+    <span class="hint">点击卡片进入对应项目</span>
+  </div>
+  <section class="grid" id="project-grid"><!-- 由 app.js 渲染 --></section>
+
+  <p class="foot">
+    <a href="https://github.com/760985933" target="_blank" rel="noopener">GitHub ↗</a>
+  </p>
+
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
